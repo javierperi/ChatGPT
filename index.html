@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Recetas fáciles y saludables: cocina casera, postres deliciosos y platos rápidos para todos los gustos.">
+  <meta name="keywords" content="recetas fáciles, comida saludable, postres caseros, cocina rápida, recetas de cena, cocina mediterránea, recetas de pollo, recetas vegetarianas, recetas dulces, cocina moderna">
+  <title>Recetas Fáciles y Saludables | Cocina Moderna</title>
+  <style>
+    :root {
+      --color-fondo: #fafafa;
+      --color-principal: #ff7043;
+      --color-texto: #333;
+      --color-blanco: #fff;
+      --fuente: 'Segoe UI', sans-serif;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background-color: var(--color-fondo);
+      font-family: var(--fuente);
+      color: var(--color-texto);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--color-principal);
+      color: var(--color-blanco);
+      text-align: center;
+      padding: 2rem 1rem;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+    }
+
+    header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+
+    .contenedor {
+      width: 90%;
+      max-width: 1200px;
+      margin: 2rem auto;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+      gap: 2rem;
+    }
+
+    .receta {
+      background-color: var(--color-blanco);
+      border-radius: 10px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+      overflow: hidden;
+      transition: transform 0.2s ease;
+    }
+
+    .receta:hover {
+      transform: translateY(-5px);
+    }
+
+    .receta img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+    }
+
+    .receta h2 {
+      color: var(--color-principal);
+      font-size: 1.5rem;
+      margin: 1rem;
+    }
+
+    .receta p {
+      margin: 0 1rem 1rem;
+      font-size: 0.95rem;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background-color: #eee;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Recetas Fáciles y Saludables</h1>
+    <p>Cocina casera, moderna y deliciosa — ¡perfecta para tu día a día!</p>
+  </header>
+
+  <main class="contenedor">
+
+    <!-- 1 -->
+    <article class="receta">
+      <img src="https://source.unsplash.com/600x400/?salad,healthy" alt="Ensalada mediterránea">
+      <h2>Ensalada Mediterránea Saludable</h2>
+      <p>Una receta fresca y rápida con tomate, pepino, aceitunas, aceite de oliva y queso feta. Ideal para una comida ligera y nutritiva. Palabras clave: <strong>ensalada saludable, recetas mediterráneas, comida ligera</strong>.</p>
+    </article>
+
+    <!-- 2 -->
+    <article class="receta">
+      <img src="https://source.unsplash.com/600x400/?pasta" alt="Pasta cremosa con pollo">
+      <h2>Pasta Cremosa con Pollo</h2>
+      <p>Receta de pasta italiana con salsa cremosa y trozos de pollo. Sencilla, sabrosa y lista en 20 minutos. <strong>receta fácil, pasta casera, comida rápida</strong>.</p>
+    </article>
+
+    <!-- 3 -->
+    <article class="receta">
+      <img src="https://source.unsplash.com/600x400/?soup" alt="Sopa de verduras casera">
+      <h2>Sopa de Verduras Casera</h2>
+      <p>Ideal para días fríos. Ingredientes naturales, sin conservantes y con todo el sabor de la cocina casera. <strong>sopa saludable, comida casera, receta vegetariana</strong>.</p>
+    </article>
+
+    <!-- 4 -->
+    <article class="receta">
+      <img src="https://source.unsplash.com/600x400/?chicken" alt="Pollo al horno con especias">
+      <h2>Pollo al Horno con Especias</h2>
+      <p>Una receta fácil y sabrosa para preparar pollo crujiente con hierbas mediterráneas y limón. <strong>pollo al horno, recetas caseras, comida saludable</strong>.</p>
+    </article>
+
+    <!-- 5 -->
+    <article class="receta">
+      <img src="https://source.unsplash.com/600x400/?smoothie" alt="Smoothie verde detox">
+      <h2>Smoothie Verde Detox</h2>
+      <p>Una bebida energizante con espinaca, piña y jengibre. Ideal para comenzar el día con vitaminas. <strong>smoothie saludable, desayuno fit, batido detox</strong>.</p>
+    </article>
+
+    <!-- 6 -->
+    <article class="receta">
+      <img src="https://source.unsplash.com/600x400/?burger,vegan" alt="Hamburguesa vegetariana">
+      <h2>Hamburguesa Vegetariana</h2>
+      <p>Deliciosa opción sin carne con garbanzos y especias. Perfecta para una comida equilibrada y moderna. <strong>receta vegana, hamburguesa saludable, cocina fácil</strong>.</p>
+    </article>
+
+    <!-- 7 -->
+    <article class="receta">
+      <img src="https://source.unsplash.com/600x400/?cake,chocolate" alt="Pastel de chocolate casero">
+      <h2>Pastel de Chocolate Casero</h2>
+      <p>Postre clásico y esponjoso con cacao puro y aroma a vainilla. ¡Ideal para los amantes del dulce! <strong>postre casero, pastel de chocolate, recetas dulces</strong>.</p>
+    </article>
+
+    <!-- 8 -->
+    <article class="receta">
+      <img src="https://source.unsplash.com/600x400/?tacos" alt="Tacos mexicanos">
+      <h2>Tacos Mexicanos Tradicionales</h2>
+      <p>Auténticos tacos con carne, cebolla, cilantro y salsa picante. Un toque de México en tu cocina. <strong>receta mexicana, tacos caseros, comida internacional</strong>.</p>
+    </article>
+
+    <!-- 9 -->
+    <article class="receta">
+      <img src="https://source.unsplash.com/600x400/?pancakes,breakfast" alt="Pancakes de avena">
+      <h2>Pancakes de Avena y Plátano</h2>
+      <p>Receta sin azúcar añadida, perfecta para desayunos saludables y ricos en fibra. <strong>desayuno saludable, recetas fitness, avena y plátano</strong>.</p>
+    </article>
+
+    <!-- 10 -->
+    <article class="receta">
+      <img src="https://source.unsplash.com/600x400/?salmon,fish" alt="Salmón al limón">
+      <h2>Salmón al Limón con Hierbas</h2>
+      <p>Plato gourmet listo en minutos, con omega 3 y un toque cítrico irresistible. <strong>receta saludable, pescado al horno, cocina rápida</strong>.</p>
+    </article>
+
+  </main>
+
+  <footer>
+    © 2025 Cocina Moderna | Recetas Fáciles y Saludables  
+  </footer>
+</body>
+</html>
